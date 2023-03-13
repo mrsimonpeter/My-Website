@@ -1,0 +1,25 @@
+a {
+    color: green;
+}
+
+.navbar {
+    text-align: right;
+    width: 95%;
+    background-color: blue;
+    padding: 20px;
+}
+
+.navbar li {
+    display: inline;
+    margin: 2%;
+}
+
+.navbar li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#welcome {
+    color: red;
+    text-align: center;
+}
