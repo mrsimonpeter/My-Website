@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="index.html" title="Home Page">Home</a></li>
+        <li><a href="about.htm" title="About Page">About</a></li>
+        <li><a href="contact.html" title="Contact Page">Contact</a></li>
+        <li><a href="gallery.html" title="Gallery Page">Gallery</a></li>
+        <li><a href="schedule.html" title="Schedule Page">Schedule</a></li>
+    </ul>    <h4> 
+    <hr></h4>
+    <h5>Contact Me:</h5>
+    <address>30 Aina Street <br>
+    By 1st Gate B/S <br>
+    Ikeja - Lagos. <br>
+    Tel: 07032417868 <br>
+        :07067798618 <br>
+    Email: legalmesp@gmail.com</address><br>
+    <h1>Registration Page</h1>
+    <form>
+        <p>
+            First Name <input type="text" name="first name" placeholder="e.g Simon">
+            Last Name <input type="text" name="last name" placeholder="e.g Peter">
+        </p>
+        <p>
+            Sex
+            <input type="radio" id="female" name="sex" value="female"/> <label for="female">Female</label>
+            <input type="radio" id="male" name="sex" value="male"/> <label for="male">Male</label>
+            <input type="radio" id="binary" name="sex" value="binary"/> <label for="binary">Binary</label>
+        </p>
+        <p>
+            Date of Birth
+            <input type="date">
+        </p>
+        <p>
+            State of Origin
+            <select name="state">
+                <option></option>
+                <option value="abia">Abia State</option>
+                <option>AAdamawa</option>
+                <option>Akwa-Ibom</option>
+                <option>Anambara</option>
+                <option>Adamawa</option>
+            </select>
+        </p>
+        <p>
+            Choose your Courses
+            <input type="checkbox" name="courses" value="HTML" id="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" name="courses" value="CSS" id="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="courses" value="JavaScript" id="js">
+            <label for="js">JavaScript</label>
+            <input type="checkbox" name="courses" value="PHP" id="php">
+            <label for="php">PHP</label>
+        </p>
+        <p>
+            Course Duration
+            <input type="number" name="duration" placeholder="enter course duration">
+        </p>
+        <p>
+            Email <input type="email" name="email" placeholder="example@gmail.com">
+            Phone <input type="tel" name="phone" placeholder="+234 7032417868">
+        </p>
+        <p>
+            Select photo 
+            <input type="file" name="photo">
+        <p>
+            Description <br>
+            <textarea cols="50" rows="10">
+            </textarea>
+        </p>
+        <p>
+            <input type="submit" value="Register">
+        </p>
+    </form>
+</body>
+</html>
