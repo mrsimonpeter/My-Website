@@ -23,3 +23,20 @@ a {
     color: red;
     text-align: center;
 }
+.gallery-item{
+    border-radius: 30%;
+    box-shadow: 0px 1px 0px 0px;
+}
+.register{
+    padding: 8px;
+    box-shadow: 10px 5px 10px 5px rgb(88, 78, 124);
+    margin: 5%;
+    width: 50%;
+    border-radius: 20px;
+}
+.basic-data{
+    padding: 5%;
+    box-shadow: 10px 10px 10px 10px;
+    margin: 2%;
+    border-radius: 30px;
+}
