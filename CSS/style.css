@@ -43,3 +43,46 @@ a {
     margin: 2%;
     border-radius: 30px;
 }
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    box-shadow: 0px 16px 16px 8px;
+}
+.flex > div{
+    margin: 1%;
+    height: 100px;
+    width: 100px;
+    background-color: #ffffff;
+    line-height: 6rem;
+}
+.flex > div img{
+    width: 100px;
+    border-radius: 50%;
+    border: solid 2px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    padding: 1%;
+}
+.grid > div{
+    margin: 1%;
+    height: 150px;
+    width: 150px;
+    background-color: #ddf508;
+}
+.grid2{
+    display: grid;
+    height: 400px;
+    padding: 1%;
+    gap: 20px;
+    grid-template-columns: 70% 30%;
+}
+.Intro{
+    box-shadow: 0px 16px 16px 8px;
+    padding: 1%;
+}
